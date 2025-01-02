@@ -30,7 +30,7 @@ else
     if [ ! -d "$CONFIG_PATH/server" ] && [ ! -d "$CONFIG_PATH/client" ]; then
         # Sync configuration files with github
         echo "$(date): Sync configuration files with github"
-        svn checkout $GIT_URL/trunk/config $CONFIG_PATH
+        svn checkout $GIT_URL/config $CONFIG_PATH
     fi
 
     if [ -s $CONFIG_PATH/config.ini ]; then
