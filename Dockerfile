@@ -4,7 +4,7 @@
 
 FROM ubuntu:latest
 
-ENV GIT_URL="https://github.com/MrKsey/ss-tls-v2ray"
+ENV GIT_URL="https://github.com/djp1-hub/ss-tls-v2ray"
 ENV SS_URL="https://api.github.com/repos/shadowsocks/shadowsocks-rust/releases"
 ENV SS_VER="latest"
 ENV SIMPLE_TLS_URL="https://api.github.com/repos/IrineSistiana/simple-tls/releases"
